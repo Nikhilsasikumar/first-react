@@ -11,14 +11,12 @@ h1{
 }
 .todo-container{
     width: 350px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+  margin: auto;
+  margin-top: 50px;
     text-align: center;
 }
 .input-section{
-    background-color: #ececec;
+    background-color:#0f5658;
     padding: 18px;
     border-radius: 10px;
     box-shadow: 0 4px 6px #00000066;
@@ -27,13 +25,17 @@ h1{
 
 .input-section input{
     border-radius: 5px;
-    border: 1px solid rgb(226,226,226);
+    border: 1px solid rgb(9, 86, 88);
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
 input::placeholder{
     color: silver;
+    
+}
+input{
+    background: #1d6567;
 }
 ul{
   
@@ -43,7 +45,7 @@ ul{
 ul li{
     display: flex;
     list-style: none;
-    background-color: #fff;
+    background-color:#0f5658;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 10px;
